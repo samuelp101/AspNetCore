@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>11. Securing Data Access - ASP.NET Core Database Programming</title>
+  <title>5. ASP.NET Core Fundamentals - ASP.NET Core Database Programming</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "11. Securing Data Access";
-    var mkdocs_page_input_path = "ch11.md";
+    var mkdocs_page_name = "5. ASP.NET Core Fundamentals";
+    var mkdocs_page_input_path = "ch05.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -63,8 +63,26 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Foundation Knowledge</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../ch05/">5. ASP.NET Core Fundamentals</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">5. ASP.NET Core Fundamentals</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#http-request-and-response">HTTP request and response</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#middleware">Middleware</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#routing">Routing</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configuration">Configuration</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#security-and-access-control">Security and access control</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#debugging">Debugging</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#logging">Logging</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#design-patterns">Design patterns</a>
+    </li>
+    </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../ch06/">6. Databases</a>
                     </li>
@@ -81,22 +99,8 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Securing & Monitoring Data Access</span></p>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">11. Securing Data Access</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#https">HTTPS</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#authentication">Authentication</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#authorization">Authorization</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#json-web-tokens">JSON Web tokens</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#multi-factor-authentication">Multi factor authentication</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#data-encryption">Data encryption</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../ch11/">11. Securing Data Access</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../ch12/">12. Logging and Monitoring</a>
                     </li>
@@ -128,11 +132,11 @@
     
       
         
-          <li>Securing & Monitoring Data Access &raquo;</li>
+          <li>Foundation Knowledge &raquo;</li>
         
       
     
-    <li>11. Securing Data Access</li>
+    <li>5. ASP.NET Core Fundamentals</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -143,13 +147,20 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="securing-data-access">Securing Data Access</h1>
-<h3 id="https">HTTPS</h3>
-<h3 id="authentication">Authentication</h3>
-<h3 id="authorization">Authorization</h3>
-<h3 id="json-web-tokens">JSON Web tokens</h3>
-<h3 id="multi-factor-authentication">Multi factor authentication</h3>
-<h3 id="data-encryption">Data encryption</h3>
+                <h1 id="aspnet-core-fundamentals">ASP.NET Core Fundamentals</h1>
+<h3 id="http-request-and-response">HTTP request and response</h3>
+<h3 id="middleware">Middleware</h3>
+<h3 id="routing">Routing</h3>
+<h3 id="configuration">Configuration</h3>
+<h3 id="security-and-access-control">Security and access control</h3>
+<h3 id="debugging">Debugging</h3>
+<h3 id="logging">Logging</h3>
+<h3 id="design-patterns">Design patterns</h3>
+<ul>
+<li>Dependency injection</li>
+<li>Option</li>
+<li>Repository</li>
+</ul>
               
             </div>
           </div>
@@ -157,10 +168,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../ch12/" class="btn btn-neutral float-right" title="12. Logging and Monitoring">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../ch06/" class="btn btn-neutral float-right" title="6. Databases">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../ch10/" class="btn btn-neutral" title="10. Data Consumers"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ch04/" class="btn btn-neutral" title="4. Development Environment"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -186,10 +197,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../ch10/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../ch04/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../ch12/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../ch06/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

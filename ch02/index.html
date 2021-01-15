@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>11. Securing Data Access - ASP.NET Core Database Programming</title>
+  <title>2. Data, data-management & database - ASP.NET Core Database Programming</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "11. Securing Data Access";
-    var mkdocs_page_input_path = "ch11.md";
+    var mkdocs_page_name = "2. Data, data-management & database";
+    var mkdocs_page_input_path = "ch02.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -52,10 +52,24 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Introduction</span></p>
-                <ul>
+                <ul class="current">
                     <li class="toctree-l1"><a class="reference internal" href="../ch01/">1. Introduction</a>
                     </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../ch02/">2. Data, data-management & database</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">2. Data, data-management & database</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#data">Data</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data-security-and-privacy">Data security and Privacy</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#confidentiality-integrity-and-availability">Confidentiality, integrity and availability</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data-management">Data management</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#data-sources">Data sources</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#databases">Databases</a>
+    </li>
+    </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../ch03/">3. Database Programming Intro</a>
                     </li>
@@ -81,22 +95,8 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Securing & Monitoring Data Access</span></p>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">11. Securing Data Access</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#https">HTTPS</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#authentication">Authentication</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#authorization">Authorization</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#json-web-tokens">JSON Web tokens</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#multi-factor-authentication">Multi factor authentication</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#data-encryption">Data encryption</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../ch11/">11. Securing Data Access</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../ch12/">12. Logging and Monitoring</a>
                     </li>
@@ -128,11 +128,11 @@
     
       
         
-          <li>Securing & Monitoring Data Access &raquo;</li>
+          <li>Introduction &raquo;</li>
         
       
     
-    <li>11. Securing Data Access</li>
+    <li>2. Data, data-management & database</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -143,13 +143,13 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="securing-data-access">Securing Data Access</h1>
-<h3 id="https">HTTPS</h3>
-<h3 id="authentication">Authentication</h3>
-<h3 id="authorization">Authorization</h3>
-<h3 id="json-web-tokens">JSON Web tokens</h3>
-<h3 id="multi-factor-authentication">Multi factor authentication</h3>
-<h3 id="data-encryption">Data encryption</h3>
+                <h1 id="data-data-management-and-databases">Data, Data-Management and Databases</h1>
+<h3 id="data">Data</h3>
+<h3 id="data-security-and-privacy">Data security and Privacy</h3>
+<h3 id="confidentiality-integrity-and-availability">Confidentiality, integrity and availability</h3>
+<h3 id="data-management">Data management</h3>
+<h3 id="data-sources">Data sources</h3>
+<h3 id="databases">Databases</h3>
               
             </div>
           </div>
@@ -157,10 +157,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../ch12/" class="btn btn-neutral float-right" title="12. Logging and Monitoring">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../ch03/" class="btn btn-neutral float-right" title="3. Database Programming Intro">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../ch10/" class="btn btn-neutral" title="10. Data Consumers"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../ch01/" class="btn btn-neutral" title="1. Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -186,10 +186,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../ch10/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../ch01/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../ch12/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../ch03/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
