@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using NorthwindMVC.Identity.Models;
 
 namespace NorthwindMVC.Identity.Data
 {
@@ -12,5 +10,8 @@ namespace NorthwindMVC.Identity.Data
             : base(options)
         {
         }
+
+        public DbSet<Customer> Customers { get; set; }
+
     }
 }

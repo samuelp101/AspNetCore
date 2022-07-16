@@ -139,7 +139,6 @@ E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\NorthwindMVC.DBFirst.Views.pdb
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\NorthwindMVC.DBFirst.csproj.CopyComplete
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\NorthwindMVC.DBFirst.dll
-E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\refint\NorthwindMVC.DBFirst.dll
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\NorthwindMVC.DBFirst.pdb
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\NorthwindMVC.DBFirst.genruntimeconfig.cache
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\ref\NorthwindMVC.DBFirst.dll
@@ -148,3 +147,4 @@ E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\Razor\Views\Customers\Details.cshtml.g.cs
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\Razor\Views\Customers\Edit.cshtml.g.cs
 E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\obj\Debug\net5.0\Razor\Views\Customers\Index.cshtml.g.cs
+E:\GitHub.Samuelp101\AspNetCore\src\Northwind.Projects\NorthwindMVC.DBFirst\bin\Debug\net5.0\ref\NorthwindMVC.DBFirst.dll
